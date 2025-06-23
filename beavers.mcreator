@@ -1,0 +1,394 @@
+{
+  "mod_elements": [
+    {
+      "name": "Beaver",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beavers/models/item/beaver_spawn_egg.json",
+          "src/main/resources/data/beavers/neoforge/biome_modifier/beaver_biome_modifier.json",
+          "src/main/java/net/mcreator/beavers/entity/model/BeaverModel.java",
+          "src/main/java/net/mcreator/beavers/entity/BeaverEntity.java",
+          "src/main/java/net/mcreator/beavers/client/renderer/BeaverRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BeaverRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaver_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/procedures/BeaverRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BeaverOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beaver_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/procedures/BeaverOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/item/TestItem.java",
+          "src/main/resources/assets/beavers/models/item/test_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "HardHatYellow",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beavers/models/item/hard_hat_yellow_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatYellowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardHatBlack",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_black",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/item/HardHatBlackItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_black_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "HardHatBlue",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beavers/models/item/hard_hat_blue_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatBlueItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardHatBrown",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_brown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/item/HardHatBrownItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_brown_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "HardHatCyan",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_cyan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beavers/models/item/hard_hat_cyan_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatCyanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardHatGray",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_gray",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/item/HardHatGrayItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_gray_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "HardHatGreen",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_green",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/item/HardHatGreenItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_green_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "HardHatLightBlue",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_light_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/item/HardHatLightBlueItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_light_blue_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "HardHatLightGray",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_light_gray",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beavers/models/item/hard_hat_light_gray_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatLightGrayItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardHatLime",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_lime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beavers/models/item/hard_hat_lime_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatLimeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardHatMagenta",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_magenta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/item/HardHatMagentaItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_magenta_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "HardHatOrange",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_orange",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beavers/models/item/hard_hat_orange_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatOrangeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardHatPink",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beavers/models/item/hard_hat_pink_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatPinkItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardHatPurple",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_purple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/item/HardHatPurpleItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_purple_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "HardHatRed",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/item/HardHatRedItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_red_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "HardHatWhite",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hard_hat_white",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beavers/item/HardHatWhiteItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_white_helmet.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "ywaterplace",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Test.body"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:HardHatWhite.helmet",
+      "~CUSTOM:HardHatRed.helmet",
+      "~CUSTOM:HardHatPurple.helmet",
+      "~CUSTOM:HardHatPink.helmet",
+      "~CUSTOM:HardHatOrange.helmet",
+      "~CUSTOM:HardHatMagenta.helmet",
+      "~CUSTOM:HardHatLime.helmet",
+      "~CUSTOM:HardHatLightGray.helmet",
+      "~CUSTOM:HardHatLightBlue.helmet",
+      "~CUSTOM:HardHatGreen.helmet",
+      "~CUSTOM:HardHatGray.helmet",
+      "~CUSTOM:HardHatCyan.helmet",
+      "~CUSTOM:HardHatBrown.helmet",
+      "~CUSTOM:HardHatBlue.helmet",
+      "~CUSTOM:HardHatBlack.helmet",
+      "~CUSTOM:HardHatYellow.helmet"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.beavers.hard_hat_blue_helmet": "Hard hat",
+      "item.beavers.hard_hat_yellow_helmet": "Hard hat",
+      "item.beavers.hard_hat_cyan_helmet": "Hard hat",
+      "item.beavers.hard_hat_magenta_helmet": "Hard hat",
+      "item.beavers.hard_hat_gray_helmet": "Hard hat",
+      "item.beavers.hard_hat_green_helmet": "Hard hat",
+      "item.beavers.hard_hat_orange_helmet": "Hard hat",
+      "item.beavers.hard_hat_black_helmet": "Hard hat",
+      "item.beavers.hard_hat_purple_helmet": "Hard hat",
+      "item.beavers.hard_hat_light_gray_helmet": "Hard hat",
+      "item.beavers.hard_hat_light_blue_helmet": "Hard hat",
+      "item.beavers.hard_hat_brown_helmet": "Hard hat",
+      "item.beavers.hard_hat_white_helmet": "Hard hat",
+      "entity.beavers.beaver": "Beaver",
+      "item.beavers.beaver_spawn_egg": "Beaver Spawn Egg",
+      "item.beavers.hard_hat_lime_helmet": "Hard hat",
+      "item.beavers.test_chestplate": "High visibility jacket",
+      "item.beavers.hard_hat_pink_helmet": "Hard hat",
+      "item.beavers.hard_hat_red_helmet": "Hard hat"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "beavers",
+    "modName": "Beavers!",
+    "version": "1.0.0",
+    "author": "julia, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "pehkui",
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.beavers"
+  },
+  "mcreatorVersion": 202400452410
+}

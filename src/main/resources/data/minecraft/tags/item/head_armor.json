@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "beavers:hard_hat_white_helmet",
+    "beavers:hard_hat_red_helmet",
+    "beavers:hard_hat_purple_helmet",
+    "beavers:hard_hat_pink_helmet",
+    "beavers:hard_hat_orange_helmet",
+    "beavers:hard_hat_magenta_helmet",
+    "beavers:hard_hat_lime_helmet",
+    "beavers:hard_hat_light_gray_helmet",
+    "beavers:hard_hat_light_blue_helmet",
+    "beavers:hard_hat_green_helmet",
+    "beavers:hard_hat_gray_helmet",
+    "beavers:hard_hat_cyan_helmet",
+    "beavers:hard_hat_brown_helmet",
+    "beavers:hard_hat_blue_helmet",
+    "beavers:hard_hat_black_helmet",
+    "beavers:hard_hat_yellow_helmet"
+  ]
+}

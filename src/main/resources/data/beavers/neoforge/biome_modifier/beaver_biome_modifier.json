@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "river",
+    "frozen_river"
+  ],
+  "spawners": {
+    "type": "beavers:beaver",
+    "weight": 25,
+    "minCount": 8,
+    "maxCount": 16
+  }
+}
