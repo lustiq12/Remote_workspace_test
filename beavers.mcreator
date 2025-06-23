@@ -8,10 +8,10 @@
       "registry_name": "beaver",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beavers/models/item/beaver_spawn_egg.json",
-          "src/main/java/net/mcreator/beavers/entity/BeaverEntity.java",
           "src/main/java/net/mcreator/beavers/entity/model/BeaverModel.java",
+          "src/main/java/net/mcreator/beavers/entity/BeaverEntity.java",
           "src/main/resources/data/beavers/neoforge/biome_modifier/beaver_biome_modifier.json",
+          "src/main/resources/assets/beavers/models/item/beaver_spawn_egg.json",
           "src/main/java/net/mcreator/beavers/client/renderer/BeaverRenderer.java"
         ]
       }
@@ -96,8 +96,8 @@
       "registry_name": "test",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beavers/item/TestItem.java",
-          "src/main/resources/assets/beavers/models/item/test_chestplate.json"
+          "src/main/resources/assets/beavers/models/item/test_chestplate.json",
+          "src/main/java/net/mcreator/beavers/item/TestItem.java"
         ]
       }
     },
@@ -109,8 +109,8 @@
       "registry_name": "hard_hat_yellow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beavers/item/HardHatYellowItem.java",
-          "src/main/resources/assets/beavers/models/item/hard_hat_yellow_helmet.json"
+          "src/main/resources/assets/beavers/models/item/hard_hat_yellow_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatYellowItem.java"
         ]
       }
     },
@@ -122,8 +122,8 @@
       "registry_name": "hard_hat_black",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beavers/models/item/hard_hat_black_helmet.json",
-          "src/main/java/net/mcreator/beavers/item/HardHatBlackItem.java"
+          "src/main/java/net/mcreator/beavers/item/HardHatBlackItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_black_helmet.json"
         ]
       }
     },
@@ -135,8 +135,8 @@
       "registry_name": "hard_hat_blue",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beavers/models/item/hard_hat_blue_helmet.json",
-          "src/main/java/net/mcreator/beavers/item/HardHatBlueItem.java"
+          "src/main/java/net/mcreator/beavers/item/HardHatBlueItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_blue_helmet.json"
         ]
       }
     },
@@ -148,8 +148,8 @@
       "registry_name": "hard_hat_brown",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beavers/models/item/hard_hat_brown_helmet.json",
-          "src/main/java/net/mcreator/beavers/item/HardHatBrownItem.java"
+          "src/main/java/net/mcreator/beavers/item/HardHatBrownItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_brown_helmet.json"
         ]
       }
     },
@@ -161,8 +161,8 @@
       "registry_name": "hard_hat_cyan",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beavers/item/HardHatCyanItem.java",
-          "src/main/resources/assets/beavers/models/item/hard_hat_cyan_helmet.json"
+          "src/main/resources/assets/beavers/models/item/hard_hat_cyan_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatCyanItem.java"
         ]
       }
     },
@@ -187,8 +187,8 @@
       "registry_name": "hard_hat_green",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beavers/item/HardHatGreenItem.java",
-          "src/main/resources/assets/beavers/models/item/hard_hat_green_helmet.json"
+          "src/main/resources/assets/beavers/models/item/hard_hat_green_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatGreenItem.java"
         ]
       }
     },
@@ -265,8 +265,8 @@
       "registry_name": "hard_hat_pink",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beavers/item/HardHatPinkItem.java",
-          "src/main/resources/assets/beavers/models/item/hard_hat_pink_helmet.json"
+          "src/main/resources/assets/beavers/models/item/hard_hat_pink_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatPinkItem.java"
         ]
       }
     },
@@ -278,8 +278,8 @@
       "registry_name": "hard_hat_purple",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beavers/item/HardHatPurpleItem.java",
-          "src/main/resources/assets/beavers/models/item/hard_hat_purple_helmet.json"
+          "src/main/resources/assets/beavers/models/item/hard_hat_purple_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatPurpleItem.java"
         ]
       }
     },
@@ -291,8 +291,8 @@
       "registry_name": "hard_hat_red",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beavers/item/HardHatRedItem.java",
-          "src/main/resources/assets/beavers/models/item/hard_hat_red_helmet.json"
+          "src/main/resources/assets/beavers/models/item/hard_hat_red_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatRedItem.java"
         ]
       }
     },
@@ -306,6 +306,19 @@
         "files": [
           "src/main/java/net/mcreator/beavers/item/HardHatWhiteItem.java",
           "src/main/resources/assets/beavers/models/item/hard_hat_white_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Bruh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bruh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beavers/models/item/bruh.json",
+          "src/main/java/net/mcreator/beavers/item/BruhItem.java"
         ]
       }
     }
@@ -348,6 +361,7 @@
       "item.beavers.hard_hat_blue_helmet": "Hard hat",
       "item.beavers.hard_hat_yellow_helmet": "Hard hat",
       "item.beavers.hard_hat_cyan_helmet": "Hard hat",
+      "item.beavers.bruh": "Bruh",
       "item.beavers.hard_hat_magenta_helmet": "Hard hat",
       "item.beavers.hard_hat_gray_helmet": "Hard hat",
       "item.beavers.hard_hat_green_helmet": "Hard hat",

@@ -27,6 +27,7 @@ import net.mcreator.beavers.item.HardHatCyanItem;
 import net.mcreator.beavers.item.HardHatBrownItem;
 import net.mcreator.beavers.item.HardHatBlueItem;
 import net.mcreator.beavers.item.HardHatBlackItem;
+import net.mcreator.beavers.item.BruhItem;
 import net.mcreator.beavers.BeaversMod;
 
 public class BeaversModItems {
@@ -49,6 +50,7 @@ public class BeaversModItems {
 	public static final DeferredItem<Item> HARD_HAT_PURPLE_HELMET = REGISTRY.register("hard_hat_purple_helmet", HardHatPurpleItem.Helmet::new);
 	public static final DeferredItem<Item> HARD_HAT_RED_HELMET = REGISTRY.register("hard_hat_red_helmet", HardHatRedItem.Helmet::new);
 	public static final DeferredItem<Item> HARD_HAT_WHITE_HELMET = REGISTRY.register("hard_hat_white_helmet", HardHatWhiteItem.Helmet::new);
+	public static final DeferredItem<Item> BRUH = REGISTRY.register("bruh", BruhItem::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }
