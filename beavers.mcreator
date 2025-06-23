@@ -9,9 +9,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/beavers/models/item/beaver_spawn_egg.json",
-          "src/main/resources/data/beavers/neoforge/biome_modifier/beaver_biome_modifier.json",
-          "src/main/java/net/mcreator/beavers/entity/model/BeaverModel.java",
           "src/main/java/net/mcreator/beavers/entity/BeaverEntity.java",
+          "src/main/java/net/mcreator/beavers/entity/model/BeaverModel.java",
+          "src/main/resources/data/beavers/neoforge/biome_modifier/beaver_biome_modifier.json",
           "src/main/java/net/mcreator/beavers/client/renderer/BeaverRenderer.java"
         ]
       }
@@ -109,8 +109,8 @@
       "registry_name": "hard_hat_yellow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beavers/models/item/hard_hat_yellow_helmet.json",
-          "src/main/java/net/mcreator/beavers/item/HardHatYellowItem.java"
+          "src/main/java/net/mcreator/beavers/item/HardHatYellowItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_yellow_helmet.json"
         ]
       }
     },
@@ -122,8 +122,8 @@
       "registry_name": "hard_hat_black",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beavers/item/HardHatBlackItem.java",
-          "src/main/resources/assets/beavers/models/item/hard_hat_black_helmet.json"
+          "src/main/resources/assets/beavers/models/item/hard_hat_black_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatBlackItem.java"
         ]
       }
     },
@@ -148,8 +148,8 @@
       "registry_name": "hard_hat_brown",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beavers/item/HardHatBrownItem.java",
-          "src/main/resources/assets/beavers/models/item/hard_hat_brown_helmet.json"
+          "src/main/resources/assets/beavers/models/item/hard_hat_brown_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatBrownItem.java"
         ]
       }
     },
@@ -161,8 +161,8 @@
       "registry_name": "hard_hat_cyan",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beavers/models/item/hard_hat_cyan_helmet.json",
-          "src/main/java/net/mcreator/beavers/item/HardHatCyanItem.java"
+          "src/main/java/net/mcreator/beavers/item/HardHatCyanItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_cyan_helmet.json"
         ]
       }
     },
@@ -174,8 +174,8 @@
       "registry_name": "hard_hat_gray",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/beavers/item/HardHatGrayItem.java",
-          "src/main/resources/assets/beavers/models/item/hard_hat_gray_helmet.json"
+          "src/main/resources/assets/beavers/models/item/hard_hat_gray_helmet.json",
+          "src/main/java/net/mcreator/beavers/item/HardHatGrayItem.java"
         ]
       }
     },
@@ -213,8 +213,8 @@
       "registry_name": "hard_hat_light_gray",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beavers/models/item/hard_hat_light_gray_helmet.json",
-          "src/main/java/net/mcreator/beavers/item/HardHatLightGrayItem.java"
+          "src/main/java/net/mcreator/beavers/item/HardHatLightGrayItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_light_gray_helmet.json"
         ]
       }
     },
@@ -265,8 +265,8 @@
       "registry_name": "hard_hat_pink",
       "metadata": {
         "files": [
-          "src/main/resources/assets/beavers/models/item/hard_hat_pink_helmet.json",
-          "src/main/java/net/mcreator/beavers/item/HardHatPinkItem.java"
+          "src/main/java/net/mcreator/beavers/item/HardHatPinkItem.java",
+          "src/main/resources/assets/beavers/models/item/hard_hat_pink_helmet.json"
         ]
       }
     },
